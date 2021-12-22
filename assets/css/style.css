@@ -25,6 +25,7 @@ body {
   font-family: sans-serif;
   margin: 0;
 }
+
 html {
   background: url(../img/bg2.png) no-repeat center center fixed;
   -webkit-background-size: cover;
