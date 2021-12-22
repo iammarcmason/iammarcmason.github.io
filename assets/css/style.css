@@ -32,7 +32,11 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+<<<<<<< HEAD
   scroll-behavior: smooth !important;
+=======
+  scroll-behavior: smooth;
+>>>>>>> main
 }
 .main {
   margin: 5rem auto;
