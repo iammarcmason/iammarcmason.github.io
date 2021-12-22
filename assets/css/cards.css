@@ -65,12 +65,6 @@ body .card-container .card .box .content {
 
 body .card-container .card .box .content h2 {
   position: absolute;
-  /* top: -10px;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; 
-  right: 40px; */
-  position: absolute;
   top: 75px;
   left: 50%;
   margin-right: -50%;
