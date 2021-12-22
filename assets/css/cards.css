@@ -106,3 +106,18 @@ body .card-container .card .box .content a:hover {
   background: #fff;
   color: #000;
 }
+body .card-container .card:nth-child(1) .box:hover .content h3 {
+  color: #2196f3;
+}
+body .card-container .card:nth-child(2) .box:hover .content h3 {
+  color: #e91e63;
+}
+body .card-container .card:nth-child(3) .box:hover .content h3 {
+  color: #23c186;
+}
+body .card-container .card:nth-child(4) .box:hover .content h3 {
+  color: #000000;
+  text-shadow: 1px 1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255);
+}
