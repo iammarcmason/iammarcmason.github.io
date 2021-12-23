@@ -1,0 +1,24 @@
+.contact fieldset {
+  border: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.contact .contact-text {
+  /* width: 50%; */
+}
+.contact label {
+  display: grid;
+}
+.contact input,
+.contact textarea {
+  width: 100%;
+}
+.contact .SubmitButton {
+  width: 100px;
+}
+.contact .contact-image {
+  background-image: url(../img/tech1.jpg);
+}

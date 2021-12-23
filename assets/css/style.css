@@ -56,7 +56,12 @@ section {
   background: var(--col-section-accent);
   grid-auto-rows: auto;
   justify-content: space-between;
-
+  gap: 2em;
+}
+.contact {
+  display: grid;
+  grid-auto-rows: auto;
+  justify-content: space-between;
   gap: 2em;
 }
 .projects,
@@ -66,7 +71,8 @@ section {
 }
 
 .about .about-text h3,
-.blog .blog-text h3 {
+.blog .blog-text h3,
+.contact .contact-text h3 {
   line-height: 3rem;
 }
 
@@ -77,11 +83,13 @@ section {
 /* image stuff */
 
 .about .about-image,
-.blog .blog-image {
+.blog .blog-image,
+.contact .contact-image {
   opacity: 0;
 }
 .about-image,
-.blog-image {
+.blog-image,
+.contact-image {
   border-radius: 1em;
 }
 
@@ -98,7 +106,8 @@ section {
     min-height: 300px;
   }
   .about,
-  .blog {
+  .blog,
+  .contact {
     grid-template-columns: 50% 50%;
   }
   .about .about-text,
@@ -106,7 +115,8 @@ section {
     grid-column: 1;
   }
   .about .about-image,
-  .blog .blog-image {
+  .blog .blog-image,
+  .contact .contact-image {
     opacity: 1;
     display: grid;
     grid-column: 2;
@@ -126,15 +136,18 @@ section {
     height: max(max-content, 50vh);
   }
   .about,
-  .blog {
+  .blog,
+  .contact {
     grid-template-columns: 50% 50%;
   }
   .about .about-text,
   .blog .blog-text {
     grid-column: 1;
   }
+
   .about .about-image,
-  .blog .blog-image {
+  .blog .blog-image,
+  .contact .contact-image {
     opacity: 1;
     display: grid;
     grid-column: 2;

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../assets/css/header_style.css" />
     <link rel="stylesheet" href="../assets/css/footer.css" />
     <link rel="stylesheet" href="../assets/css/cards.css" />
+    <link rel="stylesheet" href="../assets/css/contact.css" />
 
     <title>Marc Mason: Data Guy</title>
   </head>
@@ -126,16 +127,50 @@
         </section>
         <section class="contact" id="contact">
           <div class="contact-text">
-            <h2>Contact</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
-              a ducimus labore tenetur. Quia hic laborum voluptate quisquam
-              numquam doloremque minus consectetur dicta molestias odit est
-              doloribus commodi ullam ad animi expedita facere deleniti
-              voluptatibus sed repellendus, vero necessitatibus enim debitis
-              reiciendis? Ducimus sed totam quaerat quidem labore sint deleniti.
-            </p>
+            <h2>Contact Me</h2>
+            <form
+              id="fs-frm"
+              name="simple-contact-form"
+              accept-charset="utf-8"
+              action="https://formspree.io/f/mbjwlror"
+              method="post"
+            >
+              <fieldset id="fs-frm-inputs">
+                <label for="full-name">Full Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="full-name"
+                  placeholder="First and Last"
+                  required=""
+                />
+                <label for="email-address">Email Address</label>
+                <input
+                  type="email"
+                  name="_replyto"
+                  id="email-address"
+                  placeholder="email@domain.tld"
+                  required=""
+                />
+                <label for="message">Message</label>
+                <textarea
+                  rows="5"
+                  name="message"
+                  id="message"
+                  placeholder="Send me a message"
+                  required=""
+                ></textarea>
+                <input
+                  type="hidden"
+                  name="_subject"
+                  id="email-subject"
+                  value="Contact Form Submission"
+                />
+              </fieldset>
+              <input type="submit" value="Submit" class="SubmitButton" />
+            </form>
           </div>
+          <div class="contact-image"></div>
         </section>
       </div>
       <div class="footer">
@@ -145,7 +180,7 @@
         <div class="copyright"><p>Copyright: Marc Mason 2022</p></div>
         <div class="footer-links">
           <ul>
-            <li><a href="">Github</a></li>
+            <li><a href="http://github.com/iammarcmason">Github</a></li>
             <li><a href="">Youtube</a></li>
             <li><a href="">LinkedIn</a></li>
             <li><a href="">Facebook</a></li>
