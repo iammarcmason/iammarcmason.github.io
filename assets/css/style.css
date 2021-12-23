@@ -39,6 +39,7 @@ html {
   margin: 5rem auto;
   margin-top: 65px;
   width: 100%;
+  margin-bottom: 0;
 }
 
 /* section stuff */
@@ -56,13 +57,13 @@ section {
   background: var(--col-section-accent);
   grid-auto-rows: auto;
   justify-content: space-between;
-  gap: 2em;
+  grid-column-gap: 2em;
 }
 .contact {
   display: grid;
   grid-auto-rows: auto;
   justify-content: space-between;
-  gap: 2em;
+  grid-column-gap: 2em;
 }
 .projects,
 .contact {
