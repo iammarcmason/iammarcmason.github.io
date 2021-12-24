@@ -35,11 +35,11 @@
 .footer .footer-links a::after {
   content: "";
   position: absolute;
-  left: -10px;
+  left: -18px;
   bottom: -2px;
   background: #fff;
   height: 2px;
-  width: calc(100% + 10px);
+  width: calc(100% + 18px);
   transition: transform 175ms ease;
   transform-origin: left;
 }

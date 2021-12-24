@@ -95,7 +95,7 @@ section {
 }
 
 .about-image {
-  background: url(../img/tech1.jpg);
+  background: url(../img/tech3.jpg);
 }
 .blog-image {
   background: url(../img/tech2.jpg);
@@ -164,4 +164,25 @@ section {
 }
 .img-hvr:hover {
   transform: scale(1.05);
+}
+
+.footer-links li {
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 18px; /* Adjust according to image size to push text across. */
+}
+.gh {
+  background: url(../img/gh.svg);
+}
+.yt {
+  background: url(../img/yt.svg);
+}
+.l-in {
+  background: url(../img/li.svg);
+}
+.fb {
+  background: url(../img/fb.svg);
+}
+.em {
+  background: url(../img/em.svg);
 }
